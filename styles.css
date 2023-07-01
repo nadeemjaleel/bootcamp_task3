@@ -1,0 +1,46 @@
+body{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.card{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ddebf8;
+    color: #2b2839;
+    border-bottom:5px solid #d8cefe;
+}
+.about{
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 16px;
+}
+.about {
+    animation: 2s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
